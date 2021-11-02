@@ -1,9 +1,8 @@
 import React from 'react'
-import CardComp from './CardComp'
 
-const Services = () => {
+const Services = ({ serviceRef }) => {
     return (
-        <div className="my-32" id="services">
+        <div className="my-32" ref={serviceRef}>
             <div className="text-4xl font-bold text-center">
                 Services
             </div>
