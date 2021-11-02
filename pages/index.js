@@ -2,6 +2,7 @@ import Header from '../components/Header'
 import TopSection from '../components/TopSection'
 import Services from '../components/services/Services'
 import About from '../components/About'
+import RequestDemo from '../components/RequestDemo'
 import Contact from '../components/Contact'
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
 
       </div>
       <About />
+      <RequestDemo />
       <Contact />
     </div>
   )

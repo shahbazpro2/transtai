@@ -1,21 +1,18 @@
-import { Button, TextField } from '@mui/material'
 import React from 'react'
 
 const Contact = () => {
     return (
-        <div className="bg-gray-100 pt-32 pb-40">
+        <div className="pt-32 pb-40 bg-center text-center" id="contact">
             <div className="container mx-auto px-20">
                 <div className="text-4xl font-bold text-center">
-                    Contact
+                    Contact Us
                 </div>
-                <div className="py-16 px-5 text-center space-y-5">
-                    <TextField label="First Name" fullWidth />
-                    <TextField label="Last Name" fullWidth />
-                    <TextField label="Company" fullWidth />
-                    <TextField label="Email" fullWidth />
-                    <TextField label="Phone Number" fullWidth />
-                    <TextField label="Country" fullWidth />
-                    <Button variant="contained" fullWidth>Submit</Button>
+                <div className="text-xl mt-10 py-3 px-5">
+                    <ul className="list-none">
+                        <li>Sales and general information:  <a href="http://sales@transit-ai.com">sales@transit-ai.com</a></li>
+                        <li>Technical support: <a href="http://support@transit-ai.com">support@transit-ai.com</a></li>
+                    </ul>
+
                 </div>
             </div>
         </div>
